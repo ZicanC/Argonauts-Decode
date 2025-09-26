@@ -27,8 +27,8 @@ public class DriverRoutine extends Routine {
 	@Override
 	public void onStart() {
 		super.onStart();
-		viperSystem = new ViperSystem(this);
-		clawSystem = new ClawSystem(this);
+		//viperSystem = new ViperSystem(this);
+		//clawSystem = new ClawSystem(this);
 		driveSystem = new DriveSystem(this);
 		try
 		{

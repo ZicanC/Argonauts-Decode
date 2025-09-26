@@ -47,7 +47,7 @@ public class DriveSystem extends Subsystem
     public void driveOnTickVector(double x, double y, double rx){
         x = -x;
         rx = -rx;
-        double theta = Math.atan2(y, x);
+        double theta = Math. (y, x);
         double power = Math.hypot(x, y);
 
         double sin = Math.sin(theta - Math.PI/4);
